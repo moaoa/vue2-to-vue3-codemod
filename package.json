@@ -1,0 +1,17 @@
+{
+  "name": "require-to-import",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "codemod": "babel ./refactoring/input/* --out-dir ./refactoring/output"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-cli": "^6.26.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parserOpts": {
+    "parser": "recast"
+  },
+  "plugins": ["./refactoring/babelPlugin.js"]
+}
